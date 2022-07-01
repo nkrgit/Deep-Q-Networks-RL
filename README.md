@@ -5,7 +5,7 @@
 
 <h2>Part 1 </h2>
 
-I explored 'CartPole-v1' and 'Mountain Car v0' environments. Below are few details of the environments.
+I explored 'CartPole-v1' and 'Mountain Car v0' environments. Below are a few details of the environments.
 
 <h3>Cart pole v1:</h3>
 
@@ -40,8 +40,8 @@ I explored 'CartPole-v1' and 'Mountain Car v0' environments. Below are few detai
   1. Position of the car along the x-axis
   2. Velocity of the car
 * Reward:
-  * 0: if it takes step towards the goal.
-  * -1: if it takes step that isn't towards the goal
+  * 0: if it takes a step towards the goal.
+  * -1: if it takes a step that isn't towards the goal
 * Initial State:
   * The position of the car is assigned a uniform random value in [-0.6, -0.4]. The starting
   velocity of the car is always 0.
@@ -59,7 +59,7 @@ I explored 'CartPole-v1' and 'Mountain Car v0' environments. Below are few detai
  <h2>Part 3:</h2>
  
   * Implemented Double DQN (i.e. improvement) to vanilla DQN algorithm.
-  * I have implemented Double DQN as it reduces the overestimation problem, for this I have changed my target value calculation and syncing weights strategy.
+  * I have implemented Double DQN as it reduces the overestimation problem, for this, I have changed my target value calculation and syncing weights strategy.
   * Solved Grid-world, Open AI 'CartPole-v1' and 'MountainCar-v0' environments. 
   * Compared results from vanilla DQN and improved version to get an intuition about how RL agent is learning in complex environments.
   
